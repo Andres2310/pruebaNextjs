@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const mongoose=require('mongoose')
 const mongoDB=process.env.DATABASE_URL
-const Model=require("../../model/model")
+const Model=require("/model/model")
 
 
 mongoose.connect(mongoDB);
