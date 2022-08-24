@@ -11,4 +11,4 @@ const dbSchema = new mongoose.Schema({
         imageSrc:String
 })
 
-module.exports = mongoose.model('Data', dbSchema)
+module.exports = mongoose.models.Data || mongoose.model('Data', dbSchema)
