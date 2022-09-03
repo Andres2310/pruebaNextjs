@@ -21,10 +21,10 @@ function login() {
       .then(res => console.log(res))
   }
   return (
-    <div className="min-h-screen bg-slate-500 flex items-center justify-center">
-      <div className="container max-w-lg border-2 rounded-md h-96">
-        <div className=" max-w-sm ">
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+    <div className="min-h-screen p-8 bg-slate-500 flex items-center justify-center">
+      <div className="container max-w-sm border-2 rounded-md h-[60vh] p-5 my-10">
+        <div className=" max-w-sm mx-auto ">
+          <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
           <label htmlFor="email">email</label>
           <input type="email" name="emailLogin" id="emailLogin" />
 
@@ -32,13 +32,13 @@ function login() {
           <input type="password" name="passwordLogin" id="passwordLogin" />
           <button className="bg-zinc-400" type="submit">Submit</button>
           
+
+          </form>
+
           <a href="">
             <span>Register</span>
 
           </a>
-
-          </form>
-
 
         </div>
 
