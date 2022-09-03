@@ -25,13 +25,13 @@ function login() {
       <div className="container max-w-sm border-2 rounded-md h-[60vh] p-5 my-10">
         <div className=" max-w-sm mx-auto ">
           <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
-          <label htmlFor="email">email</label>
-          <input type="email" name="emailLogin" id="emailLogin" />
+            <label htmlFor="email">email</label>
+            <input type="email" name="emailLogin" id="emailLogin" />
 
-          <label htmlFor="password">Password</label>
-          <input type="password" name="passwordLogin" id="passwordLogin" />
-          <button className="bg-zinc-400" type="submit">Submit</button>
-          
+            <label htmlFor="password">Password</label>
+            <input type="password" name="passwordLogin" id="passwordLogin" />
+            <button className="bg-zinc-400" type="submit">Submit</button>
+
 
           </form>
 

@@ -1,4 +1,4 @@
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 function Register() {
 
@@ -29,7 +29,7 @@ function Register() {
         <label htmlFor="email">Email</label>
         <input type='email' placeholder="email@example.com" id="email" />
       </div>
-      
+
       <motion.div className='flex flex-col justify-center items-center'>
         <label htmlFor="password" >Password</label>
         <input type='password' placeholder="********" id="password" />
